@@ -17,8 +17,9 @@ A small SQL analytics project that analyzes movie metadata and user ratings to a
 - Which movies appear “underrated” vs IMDb scores?
 - Which movies have the best ROI?
 
-## How to Run
-```bash
-sqlite3 movies.db < schema.sql
-sqlite3 movies.db < seed_data.sql
-sqlite3 movies.db ".read analysis.sql"
+## Skills Demonstrated
+- SQL joins across normalized tables
+- Aggregations and filtering (AVG, COUNT, GROUP BY, HAVING)
+- KPI-style metrics (rewatch rate, average rating, ROI)
+- Schema design with primary and foreign keys
+- Reproducible analytics workflow using SQLite
